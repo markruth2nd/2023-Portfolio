@@ -4,7 +4,8 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+//not using props..
+const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center> {/* main and center props have been applied her */}
@@ -14,6 +15,8 @@ const Hero = (props) => (
       <SectionText>
       A passionate and lively web developer, driven to create exceptional digital experiences through innovative and dynamic designs.
       </SectionText>
+      {/* Button add which currently take user to github page, this can and will be updated in time.. */}
+      <Button onClick={() => window.location = 'https://github.com/markruth2nd'}>Learn More..</Button>
     </LeftSection>
   </Section>
 );
