@@ -6,6 +6,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { projects } from '../../constants/constants';
 
 
+//Project const is put together using already made components such as the constants.js which has all info show in each card for the project.
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
@@ -27,6 +28,10 @@ const Projects = () => (
               ))}
             </TagList>
           </div>
+          <UtilityList>
+            <ExternalLinks href={visit}>Code</ExternalLinks>
+            <ExternalLinks href={source}>Source</ExternalLinks>
+          </UtilityList>
         </BlogCard>
       ))}
     </GridContainer>
