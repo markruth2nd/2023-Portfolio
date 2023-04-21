@@ -11,8 +11,8 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link legacyBehavior href="/">
-      <a style={{ display: "flex", alignItems: "center", color: "white"}}>
-      <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+      <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px"}}>
+      <DiCssdeck size="3rem" /> <Span>Portfolio</Span> {/* I have updated the <span> to <Span> which is my new style component */}
       </a>
       </Link>
     </Div1>
