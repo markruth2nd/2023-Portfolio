@@ -209,7 +209,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #749ECE 0%, #0000 100%)' : 'linear-gradient(270deg, #749ECE 0%, #5B577E 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #DCA9CF 0%, #0000 100%)' : 'linear-gradient(270deg, #DCA9CF 0%, #5B577E 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
