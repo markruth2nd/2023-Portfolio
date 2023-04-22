@@ -18,7 +18,10 @@ const Technologies = () =>  (
               Experience with: <br />
               ReactJS <br />
               JavaScript <br />
+              VueJS <br />
               CSS <br />
+              Bootstrap <br />
+              JQuery<br />
               HTML <br />
             </ListParagraph>
           </ListContainer>
@@ -30,7 +33,9 @@ const Technologies = () =>  (
             <ListParagraph>
               Experience with: <br />
               Node & Databases <br />
-              API's
+              API's <br />
+              Express <br />
+              some C#
             </ListParagraph>
           </ListContainer>
         </ListItem>
@@ -41,7 +46,8 @@ const Technologies = () =>  (
             <ListParagraph>
               Experience with: <br />
               Figma <br />
-              Bootstrap
+              Bootstrap <br />
+              Adobe Creative Cloud
             </ListParagraph>
           </ListContainer>
         </ListItem>
