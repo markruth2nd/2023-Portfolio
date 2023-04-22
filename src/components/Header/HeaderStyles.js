@@ -122,7 +122,7 @@ color: white;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: #212d45;
+    background-color: #796B6E;
     transform: scale(1.2);
     cursor: pointer;
     
