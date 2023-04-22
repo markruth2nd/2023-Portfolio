@@ -35,13 +35,13 @@ const Header = () =>  (
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/markruth2nd"> 
-      <AiFillGithub /> {/* This will give me the Github Icon which will link to the link I have provided in the href */}
+      <AiFillGithub  size="3rem"/> {/* This will give me the Github Icon which will link to the link I have provided in the href */}
       </SocialIcons>
       <SocialIcons href="https://www.linkedin.com/in/mark-baldry-144725270/"> 
-      <AiFillLinkedin /> {/* This will give me the LinkedIn Icon which will link to the link I have provided in the href */}
+      <AiFillLinkedin  size="3rem"/> {/* This will give me the LinkedIn Icon which will link to the link I have provided in the href */}
       </SocialIcons>
       <SocialIcons href="https://www.instagram.com/"> 
-      <AiFillInstagram /> {/* This will give me the Instagram Icon which will link to the link I have provided in the href */}
+      <AiFillInstagram  size="3rem"/> {/* This will give me the Instagram Icon which will link to the link I have provided in the href */}
       </SocialIcons>
     </Div3>
   </Container>

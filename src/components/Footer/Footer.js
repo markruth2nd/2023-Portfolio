@@ -21,6 +21,17 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>Building websites that are both beautiful and functional.</Slogan>
         </CompanyContainer>
+        <SocialContainer>
+        <SocialIcons href="https://github.com/markruth2nd"> 
+      <AiFillGithub  size="3rem"/> {/* This will give me the Github Icon which will link to the link I have provided in the href */}
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/mark-baldry-144725270/"> 
+      <AiFillLinkedin  size="3rem"/> {/* This will give me the LinkedIn Icon which will link to the link I have provided in the href */}
+      </SocialIcons>
+      <SocialIcons href="https://www.instagram.com/"> 
+      <AiFillInstagram size="3rem"/> {/* This will give me the Instagram Icon which will link to the link I have provided in the href */}
+      </SocialIcons>
+      </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );
