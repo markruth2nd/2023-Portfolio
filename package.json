@@ -14,5 +14,18 @@
     "react-icons": "^4.2.0",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7"
-  }
+  },
+  "description": "Portfolio using React &amp; NextJS",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markruth2nd/2023-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markruth2nd/2023-Portfolio/issues"
+  },
+  "homepage": "https://github.com/markruth2nd/2023-Portfolio#readme"
 }
